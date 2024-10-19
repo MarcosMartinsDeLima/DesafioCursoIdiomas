@@ -24,7 +24,7 @@ namespace CursoIdiomas.Model
         public string Email { get; set; } = string.Empty;
 
         [Required]
-        public DateTime DataNascimento { get; set; }
+        public DateOnly DataNascimento { get; set; }
 
     }
 }
